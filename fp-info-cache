@@ -1,4 +1,4 @@
-770900105568459
+785388240027399
 Alps_Only
 ALPS-1.5U
 
@@ -31423,6 +31423,13 @@ MXOnly-1.5U-NoLED
 2
 2
 MX_Only
+MXOnly-1.5U-NoLEDHotswap
+
+
+0
+4
+2
+MX_Only
 MXOnly-1.5U-Vertical
 
 
@@ -31465,6 +31472,13 @@ MXOnly-1.25U-NoLED
 2
 2
 MX_Only
+MXOnly-1.25U-NoLEDHotswap
+
+
+0
+4
+2
+MX_Only
 MXOnly-1.75U
 
 
@@ -31491,6 +31505,13 @@ MXOnly-1.75U-NoLED
 
 0
 2
+2
+MX_Only
+MXOnly-1.75U-NoLEDHotswap
+
+
+0
+4
 2
 MX_Only
 MXOnly-1U
@@ -31526,6 +31547,13 @@ MXOnly-1U-NoLED
 
 0
 2
+2
+MX_Only
+MXOnly-1U-NoLEDHotswap
+
+
+0
+4
 2
 MX_Only
 MXOnly-2.25U
@@ -31568,6 +31596,13 @@ MXOnly-2.25U-NoLED
 
 0
 2
+2
+MX_Only
+MXOnly-2.25U-NoLEDHotswap
+
+
+0
+4
 2
 MX_Only
 MXOnly-2.25U-ReversedStabilizers
@@ -31626,6 +31661,13 @@ MXOnly-2.75U-NoLED
 2
 2
 MX_Only
+MXOnly-2.75U-NoLEDHotswap
+
+
+0
+4
+2
+MX_Only
 MXOnly-2.75U-ReversedStabilizers
 
 
@@ -31680,6 +31722,13 @@ MXOnly-2U-NoLED
 
 0
 2
+2
+MX_Only
+MXOnly-2U-NoLEDHotswap
+
+
+0
+4
 2
 MX_Only
 MXOnly-2U-ReversedStabilizers
@@ -31778,6 +31827,13 @@ MXOnly-6.25U-NoLED
 
 0
 2
+2
+MX_Only
+MXOnly-6.25U-NoLEDHotswap
+
+
+0
+4
 2
 MX_Only
 MXOnly-6.25U-ReversedStabilizers
@@ -53633,6 +53689,13 @@ SolderWirePad_single_SMD_5x10mm
 0
 0
 0
+millmax-mxalps
+millmax-mxalps
+MXALPS for Mill-Max socket
+MXALPS for Mill-Max socket
+0
+4
+4
 random-keyboard-parts
 D_SOD-123-Pretty
 SOD-123
