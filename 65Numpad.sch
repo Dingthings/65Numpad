@@ -2277,4 +2277,23 @@ Wire Wire Line
 Connection ~ 2800 5250
 Wire Wire Line
 	2800 5250 2800 5200
+$Comp
+L Connector_Generic:Conn_01x04 POGO?
+U 1 1 5FEFD1CA
+P 4250 1000
+F 0 "POGO?" H 4330 992 50  0000 L CNN
+F 1 "Conn_01x04" H 4330 901 50  0000 L CNN
+F 2 "" H 4250 1000 50  0001 C CNN
+F 3 "~" H 4250 1000 50  0001 C CNN
+	1    4250 1000
+	1    0    0    -1  
+$EndComp
+Text GLabel 4050 900  0    50   Input ~ 0
+NC
+Text GLabel 4050 1200 0    50   Input ~ 0
+VCC
+Text GLabel 4050 1000 0    50   Input ~ 0
+SERIAL
+Text GLabel 4050 1100 0    50   Input ~ 0
+GND
 $EndSCHEMATC
