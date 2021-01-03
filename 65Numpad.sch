@@ -2193,8 +2193,6 @@ Wire Wire Line
 	9000 6050 9000 6000
 Connection ~ 3350 6000
 Wire Wire Line
-	6150 6050 6750 6050
-Wire Wire Line
 	3900 6000 3900 6100
 Connection ~ 3900 6100
 Wire Wire Line
@@ -2214,8 +2212,6 @@ Wire Wire Line
 Wire Wire Line
 	5600 6000 5600 6050
 Connection ~ 5600 6050
-Wire Wire Line
-	5600 6050 6150 6050
 Connection ~ 6150 6100
 Wire Wire Line
 	6150 6000 6150 6050
@@ -2258,81 +2254,44 @@ Text GLabel 4050 1000 0    50   Input ~ 0
 SERIAL
 Text GLabel 4050 1100 0    50   Input ~ 0
 GND
-$Comp
-L Interface_Expansion:MCP23017_SP U3
-U 1 1 602098ED
-P 1550 4150
-F 0 "U3" H 1550 5431 50  0000 C CNN
-F 1 "MCP23017_SP" H 1550 5340 50  0000 C CNN
-F 2 "Package_DIP:DIP-28_W7.62mm" H 1750 3150 50  0001 L CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 1750 3050 50  0001 L CNN
-	1    1550 4150
-	1    0    0    -1  
-$EndComp
-Connection ~ 6150 6050
 Wire Wire Line
 	6150 6050 6150 6100
-Text GLabel 1550 5250 3    50   Input ~ 0
-GND
-Text GLabel 1550 3050 1    50   Input ~ 0
-VCC
-Text GLabel 700  4850 0    50   Input ~ 0
-GND
 Text GLabel 2250 1100 2    50   Input ~ 0
 GND
-Text GLabel 850  1400 0    50   Input ~ 0
-SDA
-Text GLabel 850  1500 0    50   Input ~ 0
-SCL
-Text GLabel 850  3350 0    50   Input ~ 0
-SDA
-Text GLabel 850  3450 0    50   Input ~ 0
-SCL
-Wire Wire Line
-	850  4950 800  4950
-Wire Wire Line
-	800  4950 800  4850
-Wire Wire Line
-	800  4850 700  4850
-Wire Wire Line
-	800  4850 850  4850
-Connection ~ 800  4850
-Wire Wire Line
-	800  4850 800  4750
-Wire Wire Line
-	800  4750 850  4750
-Text GLabel 2250 4950 2    50   Input ~ 0
-COL6
-Text GLabel 2250 4850 2    50   Input ~ 0
-COL5
-Text GLabel 2250 4750 2    50   Input ~ 0
-COL4
-Text GLabel 2250 4650 2    50   Input ~ 0
-COL3
-Text GLabel 2250 4550 2    50   Input ~ 0
-COL2
-Text GLabel 2250 4450 2    50   Input ~ 0
-COL1
-Text GLabel 2250 4350 2    50   Input ~ 0
+Text GLabel 2250 1400 2    50   Input ~ 0
 COL0
-Text GLabel 2250 4250 2    50   Input ~ 0
-ROW9
-Text GLabel 2250 4050 2    50   Input ~ 0
-ROW8
-Text GLabel 2250 3950 2    50   Input ~ 0
-ROW7
-Text GLabel 2250 3850 2    50   Input ~ 0
-ROW6
-Text GLabel 2250 3750 2    50   Input ~ 0
-ROW5
-Text GLabel 2250 3550 2    50   Input ~ 0
-ROW3
-Text GLabel 2250 3650 2    50   Input ~ 0
-ROW4
-Text GLabel 2250 3450 2    50   Input ~ 0
-ROW2
-Text GLabel 2250 3350 2    50   Input ~ 0
+Text GLabel 2250 1600 2    50   Input ~ 0
 ROW1
-Text GLabel 850  1600 0    50   Input ~ 0
+Text GLabel 2250 1500 2    50   Input ~ 0
 ROW0
+Text GLabel 2250 1700 2    50   Input ~ 0
+ROW2
+Text GLabel 2250 1800 2    50   Input ~ 0
+ROW3
+Text GLabel 2250 1900 2    50   Input ~ 0
+COL1
+Text GLabel 2250 2100 2    50   Input ~ 0
+ROW5
+Text GLabel 2250 2000 2    50   Input ~ 0
+ROW4
+Text GLabel 850  1500 0    50   Input ~ 0
+COL2
+Text GLabel 850  1000 0    50   Input ~ 0
+ROW6
+Text GLabel 850  1400 0    50   Input ~ 0
+ROW7
+Text GLabel 850  1600 0    50   Input ~ 0
+COL3
+Wire Wire Line
+	5600 6050 6750 6050
+Text GLabel 850  1700 0    50   Input ~ 0
+ROW8
+Text GLabel 850  1800 0    50   Input ~ 0
+ROW9
+Text GLabel 850  1900 0    50   Input ~ 0
+COL4
+Text GLabel 850  2000 0    50   Input ~ 0
+COL5
+Text GLabel 850  2100 0    50   Input ~ 0
+COL6
 $EndSCHEMATC
