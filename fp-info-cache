@@ -1,18 +1,4 @@
-788791427002266
-65Numpad
-PogoConnector
-Through hole angled pin header, 1x04, 2.54mm pitch, 6mm pin length, single row
-Through hole angled pin header THT 1x04 2.54mm single row
-0
-4
-4
-65Numpad
-PogoConnectorMirrored
-Through hole angled pin header, 1x04, 2.54mm pitch, 6mm pin length, single row
-Through hole angled pin header THT 1x04 2.54mm single row
-0
-4
-4
+788792969109516
 Alps_Only
 ALPS-1.5U
 
@@ -31759,6 +31745,13 @@ MXOnly-2U-ReversedStabilizers-NoLED
 2
 2
 MX_Only
+MXOnly-2U-ReversedStabilizers-NoLEDHotSwap
+
+
+0
+2
+2
+MX_Only
 MXOnly-3U
 
 
@@ -31858,6 +31851,13 @@ MXOnly-6.25U-ReversedStabilizers
 4
 MX_Only
 MXOnly-6.25U-ReversedStabilizers-NoLED
+
+
+0
+2
+2
+MX_Only
+MXOnly-6.25U-ReversedStabilizers-NoLEDHotswap
 
 
 0
