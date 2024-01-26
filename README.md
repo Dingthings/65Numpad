@@ -1,5 +1,5 @@
 # 65Numpad
- My first custom keeb PCB project
+ My first custom keyboard PCB project
 
 *Has several design flaws but it works*
  
